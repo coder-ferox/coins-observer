@@ -1,0 +1,14 @@
+{
+    "Header1" : "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n\t<meta http-equiv=\"refresh\" content=\"",
+    "Header2" : "\">\n\t<title>BTC Exchange Rates Observer</title>\n\t",
+    "Chart1" : "<script type=\"text/javascript\" src=\"http://www.gstatic.com/charts/loader.js\"></script>\n\t",
+    "Chart2" : "<script type=\"text/javascript\">\n\t\tgoogle.charts.load('current', {'packages':['corechart']});\n\t\tgoogle.charts.setOnLoadCallback(drawChart);\n\nfunction drawChart() {\n\t\t\tvar data = google.visualization.arrayToDataTable([\n\t\t\t\t['Data','USD','EUR','GBP'],\n\t\t\t\t",
+    "DataArray":[],
+    "Chart3" : "]);\n\n\t\t\tvar options = {\n\t\t\t\ttitle: 'Bitcoin Performance',\n\t\t\t\tcurveType: 'function',\n\t\t\t\tlegend: { position: 'bottom' }\n\t\t\t};\n\n\t\t\tvar chart = new google.visualization.LineChart(document.getElementById('curve_chart'));\n\n\t\t\tfunction selectHandler() {\n\t\t\t\tvar selectedItem = chart.getSelection()[0];\n\t\t\t\tif (selectedItem) {\n\t\t\t\t\tvar value = data.getValue(selectedItem.row, 0);\n\t\t\t\t\twindow.open('https://www.google.it/search?q=Bitcoin+' + value.substring(0,10) + '&source=lnms&tbm=nws&sa=X&ved=0ahUKEwjm8IvsyPLXAhUFyaQKHd9fBNUQ_AUICigB&biw=1366&bih=607');\n\t\t\t\t}\n\t\t\t}\n\t\t\tgoogle.visualization.events.addListener(chart, 'select', selectHandler);\n\n\t\t\tchart.draw(data, options);\n\t\t}\n\t</script>\n",
+    "newLine": "\n\t\t\t\t",
+    "StartBody" : "</head>\n\t\t<body>\n",
+    "Body" : "\t\t\t<h1 style=\"text-align:center;\">BTC Exchange Rates Observer alle <script>var MyClock = new Date();\nvar MyClockString;\nMyClockString = ('0' + MyClock.getHours()).slice(-2) + ':'+ ('0' + MyClock.getMinutes()).slice(-2);document.write(MyClockString)</script></h1>\t\t\t<div id=\"curve_chart\" style=\"width: 100%; height: 500px; text-align:center;\"></div>",
+    "EndBody" : "\n\t\t</body>\n</html>"
+}
+
+
