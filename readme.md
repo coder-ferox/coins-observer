@@ -1,7 +1,7 @@
 BTC Exchange Rates Observer (coins-observer)
 =====================================================
 
-Simply "NodeJS + Express" based application focused on getting Bitcoin exchanges rates from Coinbase then publishing them in a Google Chart based template through Express
+Simply "NodeJS + Express" based application focused on getting Bitcoin exchanges rates from Coinbase then publishing them in a Google Chart based template through Express, almost in realtime
 
 Commands:
 --------------
