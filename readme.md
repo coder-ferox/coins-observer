@@ -20,7 +20,7 @@ Settings:
 
 Actually there is only one setting and it is contained in /etc/cco.json
 
-loopTime: <milliseconds>
+loopTime: milliseconds
 
 Template:
 --------------
