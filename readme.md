@@ -8,7 +8,7 @@ Commands:
 
 `node cco.js <portNumber>` (portNumber >= 3000 && <= 65535)
 
-Will istantiate coins-observer con http://localhost:<portNumber>
+Will istantiate coins-observer con http://localhost:portNumber
 
 `node cco.js reset`
 
