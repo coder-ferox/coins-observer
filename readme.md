@@ -26,4 +26,4 @@ Template:
 --------------
 
 There is a very bad spaghetti-code template called /temp/skel.json which cointains all static html data.<br/>
-I've not yet decided if add Pug support to this project or rewrite all this thing in a another language (I'll probably do both).
+I've not yet decided if add Pug support to this project or rewrite all this thing in a another programing language (I'll probably do both).
